@@ -1,0 +1,23 @@
+body{
+    background-color: grey;
+}
+/* #kontener1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+} */
+form{
+    font-family:sans-serif
+}
+#srodek{
+    float: left;
+    width: 100%;
+    height: max-content;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
