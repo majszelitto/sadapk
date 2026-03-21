@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script src="haslojs.js"></script>
+<link rel="stylesheet" href="haslocss.css">
+</head>
+<body>
+<!-- <script>
+   function sprawdz(){
+     let we = document.getElementById("haslo").value;
+    // const regex = /^[7-9]$|^1[0-2]$/;
+    const regex = /^[A-z0-9.-]{1,}@[A-z0-9.]{1,}$/;
+     
+     if(regex.test(we)){
+        alert("poprawne");
+     }
+     else
+       alert("niepoprawne");
+     
+     
+     //regular expressions
+   }
+
+</script> -->
+<div id="kontener1">
+<div id="srodek">
+  <form>
+  <label>HASŁO: <input type="text"
+                      placeholder = "Wpisz hasło"
+                      id = "haslo"
+                      
+                      
+  ></label><br>
+  <span id="odpowiedz"></span>
+  <br>
+  <input type = button onclick = sprawdz() value="SPRAWDZ">
+  
+</form>
+</div>
+</div>
+</body>
+</html>
