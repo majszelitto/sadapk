@@ -59,6 +59,19 @@ td:hover {
     box-shadow: 0 0 15px #9bafd9;
 }
 
+#nazwa{
+    font-family: "JetBrains Mono", monospace;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+#nazwa:hover{
+    font-family: "JetBrains Mono", monospace;
+    cursor: pointer;
+    text-shadow: 0 0 10px #fff, 0 0 30px #9bafd9;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #9bafd9;
+    
+}
 #data {
     font-family: "JetBrains Mono", monospace;
     border: 1px solid black;
