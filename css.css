@@ -27,6 +27,7 @@ h1:hover {
     font-size: 35px;
     text-shadow: 0 0 10px #fff, 0 0 30px #9bafd9;
     transition: 0.3s;
+    color: black;
 }
 
 table {
