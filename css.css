@@ -46,6 +46,7 @@ th:hover {
     text-shadow: 0 0 10px #fff, 0 0 30px #9bafd9;
     transition: 0.3s;
     box-shadow: 0 0 15px white;
+    color: white;
 }
 
 td {
