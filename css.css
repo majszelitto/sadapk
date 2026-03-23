@@ -1,65 +1,59 @@
 body{
-    background-image: url(tlo.png);
-    background-size: cover;
-    background-position: center;
+    background-color: #34073d;
     margin: 0 auto;
     display: flex;
     place-items: center;
     min-height: 100vh;
     text-align: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
-a{
-    text-decoration: none;
-    color: #9bafd9;
+#imie{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#imie:hover{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ef745c;
+}
+form{
+    width: 100%;
+}
+#dane{
+    background-color: #34073d;
+    color: white;
+    border-color: #ef745c;
+    font-family: 'Courier New', Courier, monospace  ;
+}
+#dane:hover{
+    background-color: #34073d;
+    color: #ef745c;
+    border-color: #ef745c;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#dane:active{
+    background-color: #34073d;
+    color: #ef745c;
+    transform:translateY(5px);
+    border-color:#ef745c;
+    font-weight: bold;
+}
+#im{
+    background-color: #34073d;
+    border-color: #ef745c;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#im:focus{
+    background-color: #34073d;
+    border-color: #ef745c;
+    color: white;
+    outline: none;
 }
 h1{
-    font-family: 'Syne', sans-serif;
-    color: white;
-    font-size: 30px;
-
+    color: #ef745c;
+    font-family: 'Courier New', Courier, monospace;
 }
-    h1:hover{
-        transition: 0.2s;
-        cursor: pointer;
-        font-size: 35px;
-        text-shadow: 0 0 10px #fff, 0 0 30px #9bafd9;
-    	transition: 0.3s;
-    }
-table{
-	border: 1px solid black;
-}
-th{
-    font-family: 'JetBrains Mono', monospace;
-    border: 1px solid black;
-}
-    th:hover{
-        font-family: 'JetBrains Mono', monospace;
-        color: white;
-        transition: 0.2s;
-        cursor: pointer;
-        text-shadow: 0 0 10px #fff, 0 0 30px #9bafd9;
-    	transition: 0.3s;
-		box-shadow: 0 0 15px white;
-    }
-td{
-    font-family: 'JetBrains Mono', monospace;
-	border: 1px solid black;
-	transition: 0.3s;
-
-}
-	td:hover{
-    	font-weight: bold;
-		box-shadow: 0 0 15px #9bafd9;
-	}
-
-#data{
-	font-family: 'JetBrains Mono', monospace;
-	border: 1px solid black;
-	transition: 0.3s;
-}
-	#data:hover{
-		font-weight: bold;
-		box-shadow: 0 0 15px black;
-	}
